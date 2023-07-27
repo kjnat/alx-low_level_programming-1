@@ -1,6 +1,5 @@
 /*
- * File: 4-free_list.c
- * Auth: Firdaus H. Salim
+ * Auth: Zak mod
  */
 
 #include "lists.h"
@@ -8,7 +7,7 @@
 
 /**
  * free_list - Frees a list_t list.
- * @head: A pointer to the list_t list.
+ * @head:list_t list to be freed list_t list.
  */
 void free_list(list_t *head)
 {
